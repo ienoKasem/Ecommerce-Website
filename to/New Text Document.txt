@@ -1,0 +1,36 @@
+function addTocart() {
+
+
+    cartCounter++;
+    spanCart.innerText = cartCounter;
+    if (cartCounter != 0) {
+        navCart.classList.add("counterActive")
+
+    }
+}
+
+
+lap.addEventListener("click", function () {
+
+    disp.innerHTML = ""
+    for (let index = 0; index < laptops.length; index++) {
+
+        disp.innerHTML += `<div class="pro">
+        <img src=${laptops[index]} alt="">
+        <div class="des">
+            <span>Microsoft</span>
+            <h5>New Set up</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+        </div>
+        <a onclick="addTocart()"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>`
+
+
+    }

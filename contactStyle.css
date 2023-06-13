@@ -1,0 +1,42 @@
+select {
+    width: 200px;
+}
+
+
+#newsletter .red {
+    color: red;
+}
+
+#pName {
+    display: none;
+
+}
+
+#pEmail {
+    display: none;
+
+}
+
+#pPhone {
+    display: none;
+
+}
+
+#newsletter {
+    align-items: center;
+}
+
+#newsletter .form1 {
+    padding-bottom: 100px;
+    text-align: center;
+    align-items: center;
+    width: 40%;
+
+}
+
+
+
+.centerrr {
+    margin-left: auto;
+    margin-right: auto;
+}
